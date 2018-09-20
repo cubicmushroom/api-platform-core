@@ -32,7 +32,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
  */
-final class ReadListener
+final class ReadListener implements ReadListenerInterface
 {
     use OperationDataProviderTrait;
 

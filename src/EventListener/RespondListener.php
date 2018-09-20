@@ -21,7 +21,7 @@ use Symfony\Component\HttpKernel\Event\GetResponseForControllerResultEvent;
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
  */
-final class RespondListener
+final class RespondListener implements RespondListenerInterface
 {
     const METHOD_TO_CODE = [
         'POST' => Response::HTTP_CREATED,
